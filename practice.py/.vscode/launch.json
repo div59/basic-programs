@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/admin/Desktop/basic programs/c++",
-      "program": "c:/Users/admin/Desktop/basic programs/c++/build/Debug/outDebug",
+      "cwd": "c:/Users/admin/Desktop/basic programs/practice.py",
+      "program": "c:/Users/admin/Desktop/basic programs/practice.py/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
