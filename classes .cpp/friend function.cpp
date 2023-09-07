@@ -3,7 +3,7 @@ using namespace std;
 // a+b
 class B;
 class A{
-    int a;
+    int a,c=5;
     friend void add(A,B);
     public:
     A(int a){
@@ -12,7 +12,7 @@ class A{
     void show(){
         cout<<"a "<<a<<endl;
     }
-    // friendcan be declared either in private or public
+    // friend can be declared either in private or public
 };
 class B{
     int b;
@@ -30,6 +30,7 @@ class B{
 // non-member of class
 void add(A a1,B b1){
     cout<<"sum is :"<<a1.a+b1.b<<endl;
+    cout<<"hj"<<a1.c;
 }
 int main(){
     A a1(3);

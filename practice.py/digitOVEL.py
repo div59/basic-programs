@@ -62,7 +62,7 @@
 # print(s)
 
 
-# s="divyakumbar prithamgityalkar"
+# s="divyakumbar prithamgiryalkar"
 # l=s.split(" ")
 # print(l)
 
