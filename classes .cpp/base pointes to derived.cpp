@@ -22,16 +22,16 @@ class derived : public base{
 int main(){
     derived d;derived* s;
     s=&d;
-    s->show();
+    s->show();//i m in derived class 10
     // base b;
     base* p =&d;
     // p=&b;
-    p->show();
-    (*p).show();
+    p->show();//i m in base class
+    (*p).show();//i m in base class
     // type casting
     ((derived*) p)->show();
-    d.show();
-    ((derived*) p)->great();
+    d.show();//i m in derived class 10
+    ((derived*) p)->great();//welcome
     
 }
 

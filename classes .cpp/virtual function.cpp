@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// vertual function illustration
+// virtual function illustration
 class base{
     public:
     //  by default private
