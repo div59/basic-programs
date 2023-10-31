@@ -40,7 +40,7 @@ int main(){
     
     // bas=&b;
     // bas->show(); 
-    // base class ptr points to base class obj so virtual not affect bcz no derived .....hence only base method
+    // base class ptr points to base class method so virtual not affect bcz no derived .....hence only base method
     
     // der=&d;
     // der->show();

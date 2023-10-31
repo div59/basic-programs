@@ -1,0 +1,18 @@
+mport java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    String s="divya kumbar divya ";
+	    String [] a=s.split(" ");
+	    System.out.println(Arrays.toString(a));
+	    String w="divya";
+	    int c=0;
+	    for(int i=0;i<a.length;i++){
+	        if(w.equals(a[i])){
+	           c++;
+	        }
+	    }
+	    System.out.println(c);
+		
+	}
+}

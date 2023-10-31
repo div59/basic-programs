@@ -1,4 +1,5 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 // a+b
 class B;
@@ -24,7 +25,7 @@ class B{
         cout<<"b "<<b<<endl;
     }
     friend void add(A,B); 
-    // it says thas it gave the permission to add function to access all from class A
+    // it says that it gave the permission to add function to access all from class A
 };
 
 // non-member of class

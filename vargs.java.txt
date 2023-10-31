@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	static void  dis(int...k){
+	    for(int i:k){
+	        System.out.print(i);
+	    }
+	    System.out.println();
+	}
+	public static void main(String[] arg){
+	    dis(100);
+	    dis(8,7,2);
+	    dis(1,2,3,4,5,6,7);
+	}
+}
