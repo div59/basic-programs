@@ -20,7 +20,8 @@ class derived : public base{
 
 };
 int main(){
-    derived d;derived* s;
+    derived d;
+    derived* s;
     s=&d;
     s->show();//i m in derived class 10
     // base b;

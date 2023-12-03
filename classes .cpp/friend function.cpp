@@ -34,7 +34,7 @@ void add(A a1,B b1){
     cout<<"hj"<<a1.c;
 }
 int main(){
-    A a1(3);
+    A a1(3);//paiing value to contructor focus on this
     B b1(4);
     add(a1,b1);
     // here using object we r not called the add function 

@@ -7,7 +7,7 @@ class base{
     base(){
         cout<<"base cons"<<endl;
     }
-     virtual void show(){
+     virtual void show(){//virtual
         cout<<"i am parent"<<endl;
     }
     void print(){

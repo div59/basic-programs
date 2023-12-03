@@ -33,3 +33,15 @@ int main()
 
     return 0;
 }
+
+/*
+yes  7
+yes  8
+yes  5
+no divya
+yes  12
+yes  12
+yes  34
+no kumbar
+
+*/

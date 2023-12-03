@@ -1,0 +1,73 @@
+class Parent:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print(f"Parent display: {self.name}")
+
+class Child(Parent):
+    def __init__(self, name, child_name):
+        super().__init__(name)
+        self.child_name = child_name
+
+    def display(self):
+        super().display()  # Call display method from the Parent class
+        print(f"Child display: {self.child_name}")
+
+# Create an object of the Child class
+child_obj = Child("John", "Alice")
+
+# Call the display method of the Child class
+child_obj.display()
+
+
+
+in python uses super()
+in java super
+
+
+
+
+
+
+
+
+
+
+
+class Parent {
+    String name;
+
+    Parent(String name) {
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println("Parent display: " + name);
+    }
+}
+
+class Child extends Parent {
+    String childName;
+
+    Child(String name, String childName) {
+        super(name);
+        this.childName = childName;
+    }
+
+    @Override
+    void display() {
+        super.display();  // Call display method from the Parent class
+        System.out.println("Child display: " + childName);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an object of the Child class
+        Child childObj = new Child("John", "Alice");
+
+        // Call the display method of the Child class
+        childObj.display();
+    }
+}
