@@ -1,5 +1,7 @@
 package Demo.linkedlist;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -17,6 +19,25 @@ public class Single {
 		l.remove(2);
 		System.out.println(l);
 		
+		
+		l.addLast(89);
+		l.addFirst(90);
+		System.out.println("added "+l);
+		
+		
+		System.out.println(" getFirstl "+l.getFirst());
+		System.out.println(l.getLast());
+		
+		l.removeFirst();
+		System.out.println("removeFirst " +l);
+		l.removeLast();
+		System.out.println("removeLast "+l);
+		
+		//reverse
+		Collections.reverse(l);
+		System.out.println("reversing "+l);
+		
+		
 		//reverse
 		LinkedList<Integer> l2=new LinkedList<>();
 		ListIterator<Integer>  i=l.listIterator(l.size());
@@ -24,7 +45,13 @@ public class Single {
 			l2.add(i.previous());
 		}
 		System.out.println(l2);
+		
+		Collections.sort(l);
+		System.out.println("sorting  "+l);
 		}
 
+	
+	
+	
 	
 }

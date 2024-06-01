@@ -12,10 +12,22 @@ public class Basic {
 		for(int i=0;i<5;i++) {
 			list.add(g.nextInt());
 		}
-		for(int i=0;i<5;i++) {
+		for(int i=0;i<list.size();i++) {
 			System.out.println(list.get(i)+ " ");
 		}
 		System.out.println(list);
+		System.err.println("ArrayList doest have any addlast and addfirst");
+		
+		List<Integer> list2=new ArrayList<>();
+		//List<Integer> list2=new LinkedList<>(); // can have same functions as arraylist
+		list2.add(99);
+		list2.add(100);
+		list.addAll(list2);
+		System.out.println(list);
+		
+		System.out.println(list.get(5));
+		
+		
 		
 		ArrayList<Integer> l=new ArrayList<>(1);//size doesnt matter
 		l.add(3);
@@ -23,7 +35,11 @@ public class Basic {
 		l.add(8);
 	    System.out.println(l);
 	    
+	    
+	    
 	    Collections.reverse(l);//reversing
+	    
+	    
 	    
 	    System.out.println(l);
 	    Collections.sort(l);//sorting
@@ -32,10 +48,15 @@ public class Basic {
 	    System.out.println(l);
 		l.set(2, 9);
 		System.out.println(l);
+		
 		l.remove(1);
 		System.out.println(l);
 		//l.clear();
 		//System.out.println(l);
+		
+		
+		
+		System.out.println(l.contains(8));
 		
 		
 		
