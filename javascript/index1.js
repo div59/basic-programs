@@ -27,7 +27,7 @@ console.log(u)//undefined if ntg is assigned or initialized
 console.log(n)// it stores null value
 
 
-var arr = [1, 2, 3, "kj", 87]
+var arr = [1, 2, 3, "kj", 87] // collection of diff datatype elements
 console.log(arr)
 
 //functions
@@ -56,15 +56,20 @@ let my=["fam","camera",87,null,true,98,76]
 console.log(my.length)
 my.pop()
 console.log(my)
+
 my.push("div")
 console.log(my)
+
 my.shift()
 console.log(my)
+
 my.unshift("ggggi")
 my.unshift("gk")
 console.log(my)
+
 console.log(my.length)
 console.log(my.toString())
+
 my.sort()
 console.log(my)
 
