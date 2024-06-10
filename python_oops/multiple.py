@@ -1,6 +1,8 @@
 class Parent1:
     def show(self):
         print("Show method from Parent1")
+    def greet(self,k):
+        
 
 class Parent2:
     def show(self):
