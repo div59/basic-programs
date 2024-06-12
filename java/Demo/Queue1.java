@@ -6,8 +6,11 @@ import java.util.Queue;
 public class Queue1 {
     public static void main(String[] args) {
         // Create a Queue
-        Queue<Integer> queue = new LinkedList<>();
+//        Queue<Integer> queue = new Queue<>();
+//        In Java, you can't directly instantiate a Queue object using the new keyword because Queue is an interface, not a concrete class. Interfaces cannot be instantiated on their own; they need to be implemented by a concrete class.
 
+//        The Queue interface provides a contract for implementing different kinds of queues, such as LinkedList, PriorityQueue, e
+        Queue<Integer> queue = new LinkedList<>();
         // Adding elements to the queue
         //if u cant add then throws an exception but offer returns false
         System.out.println("Adding elements to the queue...");

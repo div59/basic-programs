@@ -6,7 +6,8 @@ import java.util.*;
 public class learPriority {
 	public static void main(String args[]) {
 
-		Queue<Integer> q = new PriorityQueue<>();
+//		Queue<Integer> q = new PriorityQueue<>();
+		PriorityQueue<Integer> q = new PriorityQueue<>();
 		// so here this priorityqueue is implementing queue so it has the properties of queue
 		q.offer(34);
 		q.offer(2);
@@ -35,6 +36,19 @@ public class learPriority {
 		System.out.println(q1);
 		System.out.println(q1.peek());
 		System.out.println(q1);
+		
+//		output
+//				[2, 34, 98, 66]
+//				[34, 66, 98]
+//				34
+//				[34, 66, 98]
+//
+//
+//				[98, 66, 34, 2]
+//				[66, 2, 34]
+//				66
+//				[66, 2, 34]
+
 		
 		
 		}

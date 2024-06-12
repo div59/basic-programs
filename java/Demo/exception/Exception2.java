@@ -2,7 +2,7 @@ package Demo.exception;
 
 public class Exception2 {
 
-	public static void main(String[] args) throws Myexception {
+	public static void main(String[] args)throws Myexception  {
 		int a=4;
 		int b=0;
 		try {

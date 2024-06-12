@@ -5,6 +5,9 @@ public class Multi {
 
 	public static void main(String[] args) {
 		ArrayList<ArrayList<Integer>> list=new ArrayList<>();
+//		List<Integer> kIntegers=new List<>(); cant
+		
+		
 		Scanner in =new Scanner(System.in);
 		//1st we have to initialize the arraylist
 		for(int i=0;i<3;i++) {
@@ -17,6 +20,11 @@ public class Multi {
 			}
 		}
 		System.out.println(list);
+		
+		
+		
+		
+		
 		
 	}
 

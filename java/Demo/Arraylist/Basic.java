@@ -71,6 +71,11 @@ public class Basic {
 		System.out.println(s);
 		
 		
+		
+		
+		
+		
+		
 		}
 
 }
