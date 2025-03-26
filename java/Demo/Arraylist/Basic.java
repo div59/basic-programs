@@ -19,7 +19,7 @@ public class Basic {
 		System.err.println("ArrayList doest have any addlast and addfirst");
 		
 		List<Integer> list2=new ArrayList<>();
-		//List<Integer> list2=new LinkedList<>(); // can have same functions as arraylist
+		//List<Integer> list2=new LinkedList<>(); // has same functions as arraylist
 		list2.add(99);
 		list2.add(100);
 		list.addAll(list2);

@@ -19,6 +19,9 @@ abstract class parent{
 	void greeting(String good) {
 		System.out.println("hey" + good);
 	}
+	static void printInfo() { //see static in both abstract and interface
+        System.out.println("This is a static method in an abstract class.");
+    }
 	
 }
 class son extends parent{
@@ -71,6 +74,7 @@ public class Main {
 		ob2.disply();
 		ob.greeting("good moring");
 		ob2.greeting("good evng");
+		parent.printInfo();
 		
 
 	}
